@@ -98,8 +98,7 @@ def square_num(player):
                     # проверяем выйгрышную комбинацию
                     if (board[1] == board[2] == board[3]) or (board[4] == board[5] == board[6]) or (board[7] == board[8] == board[9]) or (board[1] == board[5] == board[9]) or (board[3] == board[5] == board[7]) or (board[7] == board[4] == board[1]) or (board[8] == board[5] == board[2]) or (board[9] == board[6] == board[3]):
                         board[i] = 'x'  # заменяем цифру на символ
-                        print(" Поздравляем!!! Вы выйграли!!!  ")
-                        print(num_x)
+                        print(" Поздравляем!!! Крестики выйграли!!!  ")
                         num_x = []  # обнуляем массив для х
                         num_o = []  # обнуляем массив для о
                         # возвращаем первоначальный массив
@@ -113,7 +112,7 @@ def square_num(player):
                     board_draw(board)
                     if (board[1] == board[2] == board[3]) or (board[4] == board[5] == board[6]) or (board[7] == board[8] == board[9]) or (board[1] == board[5] == board[9]) or (board[3] == board[5] == board[7]) or (board[7] == board[4] == board[1]) or (board[8] == board[5] == board[2]) or (board[9] == board[6] == board[3]):
                         board[i] = 'o'  # заменяем цифру на символ
-                        print(" Поздравляем!!!Вы выйграли!!!  ")
+                        print(" Поздравляем!!!Нолики выйграли!!!  ")
                         num_x = []  # обнуляем массив для х
                         num_o = []  # обнуляем массив для о
                         # возвращаем первоначальный массив
